@@ -12,7 +12,7 @@ enum tipo_prova {nessuna_prova, prova_spirit_box, prova_videocamera,prova_EMF};
 struct Giocatore
 {
     char nickname[20];
-    unsigned short sanità_mentale;
+    short sanità_mentale;
     struct Zona_Mappa* posizione;
     unsigned char zaino[4];
 

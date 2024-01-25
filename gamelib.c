@@ -247,7 +247,7 @@ void difficoltà() // metodo che ti fa selezionare il livello di difficoltà del
         printf("La difficoltà del gioco è stata impostato su:\x1b[32m dilettante \x1b[37m\n");
         setImpostazioni = true;
         setDifficoltà = true;
-        decremento_sanità_mentale = 10; // 10
+        decremento_sanità_mentale = 10; 
         apparizione_fantasma = 20;
         if (n_players == 1 || n_players == 2)
         {
@@ -3410,7 +3410,7 @@ void torna_caravan(struct Giocatore *g) // mi permette di marcare(lasciare), le 
     }
 }
 
-void stampa_giocatore(struct Giocatore *g) // stampo tutti i dati del giocatore
+void stampa_giocatore(struct Giocatore *g) // stampo tutti i dati del giocatore 
 {
     if (g->nickname == giocatore1->nickname)
     {
